@@ -1,0 +1,66 @@
+@import url(./layout.css);
+@import url(./button.css);
+@import url(./container.css);
+@import url(./textfield.css);
+@import url(./table.css);
+@import url(./form.css);
+@import url(./bootstrap.css);
+@import url(./icon.css);
+@import url(./header.css);
+@import url(./dialog.css);
+@import url(./tooltip.css);
+@import url(./toast.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 13px;
+    font-family: Misa fonts;
+}
+
+@font-face {
+    font-family: Misa fonts;
+    src: url(../assets/fonts/notosans-regular.2cb88a13.woff2);
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+/* @font-face {
+    font-family: Misa fonts;
+    src: url(../assets/fonts/notosans-semibold.df3e6dc4.woff2);
+    font-weight: 500;
+    font-style: normal;
+} */
+
+@font-face {
+    font-family: Misa fonts;
+    src: url(../assets/fonts/notosans-bold.3ede5aff.woff2);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Misa fonts;
+    src: url(../assets/fonts/notosans-italic.1c1aaac9.woff2);
+    font-style: italic;
+}
+
+:root {
+    --color-primary: #50b83c;
+    --color-hover: #57c841;
+    --color-focus: #067933;
+    --color-boder-default: #e0e0e0;
+    --color-active: #067933;
+    --color-fix-button: #0075c0;
+    --color-textfield-error: #e61d1d;
+    --color-wrapper: #e4e9e7;
+    --color-error: red;
+    --color-input-hover: #f6f6f6;
+    --color-input-placeholder: #9e9e9e;
+    --color-table-hover: #f2f2f2;
+    --color-nav-item-hover: #353b34;
+    --color-table-header: #f5f5f5;
+    --color-textfiled: #ebebeb;
+    --color-accent: #569c49;
+}

@@ -1,0 +1,65 @@
+.toggle {
+  height: 24px;
+  width: 24px;
+  background: url(../assets/img/Sprites.64af8f61.svg) no-repeat;
+  background-position: -1153px -28px;
+  cursor: pointer;
+}
+
+.amis-logo {
+  height: 36px;
+  cursor: pointer;
+}
+
+.amis-logo img {
+  height: 36px;
+}
+
+.header-right-logo {
+  height: 24px;
+  width: 24px;
+  margin-right: 28px;
+  cursor: pointer;
+}
+
+.header-right-company-name {
+  flex: 1;
+}
+
+.header-right-notif {
+  width: 24px;
+  height: 24px;
+  background: url(../assets/img/Sprites.64af8f61.svg) no-repeat;
+  background-position: -787px -30px;
+  margin-right: 22px;
+  cursor: pointer;
+}
+
+.header-right-ava {
+  width: 32px;
+  height: 32px;
+  background: url(../assets/img/Sprites.64af8f61.svg) no-repeat;
+  background-position: -352px -894px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.header-right-account {
+  display: flex;
+  align-items: center;
+}
+
+.header-right-down {
+  height: 4px;
+  width: 8px;
+  background: url(../assets/img/Sprites.64af8f61.svg) no-repeat;
+  background-position: -1078.71px -38.71px;
+  cursor: pointer;
+}
+
+.header-right-company-downarrow {
+  width: 16px;
+  height: 16px;
+  background: url(../assets/img/Sprites.64af8f61.svg) no-repeat -1796px -472px;
+  cursor: pointer;
+}

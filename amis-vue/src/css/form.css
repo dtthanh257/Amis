@@ -1,0 +1,148 @@
+/* form content */
+
+.employ-form {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 56%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+}
+
+.employ-form-container {
+    width: 900px;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+
+/* form header */
+
+.form-header-action {
+    display: flex;
+}
+
+.form-header {
+    display: flex;
+    padding-bottom: 32px;
+}
+
+.form-title {
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+.employ-check {
+    display: flex;
+    flex: 1;
+    gap: 40px;
+}
+
+.is-check {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.is-check input {
+    height: 20px;
+    width: 20px;
+    min-width: unset;
+    accent-color: var(--color-accent);
+}
+
+.form-close {
+    width: 24px;
+    height: 24px;
+    border: none;
+    background: url(../assets/img/Sprites.64af8f61.svg) no-repeat;
+    background-position: -144px -144px;
+    margin-left: 8px;
+    cursor: pointer;
+    position: relative;
+}
+
+.form-help {
+    width: 24px;
+    height: 24px;
+    border: none;
+    background: url(../assets/img/Sprites.64af8f61.svg) no-repeat;
+    background-position: -88px -144px;
+    cursor: pointer;
+    position: relative;
+}
+
+.form-help span {
+    color: white;
+    background-color: rgba(0, 0, 0, 56%);
+    position: absolute;
+    white-space: nowrap;
+    padding: 4px 6px;
+    border-radius: 4px;
+    top: 100%;
+    right: -75%;
+    display: none;
+}
+
+.form-help:hover span {
+    display: block;
+}
+
+.form-close span {
+    color: white;
+    background-color: rgba(0, 0, 0, 56%);
+    position: absolute;
+    white-space: nowrap;
+    padding: 4px 6px;
+    border-radius: 4px;
+    top: 100%;
+    right: -99%;
+    display: none;
+}
+
+.form-close:hover span {
+    display: block;
+}
+
+
+/* .form-help::after {
+    content: "Trợ giúp";
+    color: white;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 56%);
+    padding: 4px 4px;
+    top: 50%;
+    display: none;
+}
+
+.form-help:hover.form-help::after {
+    display: block;
+} */
+
+
+/* form content */
+
+.d-flex-row input {
+    min-width: unset;
+}
+
+
+/* form footer */
+
+.form-footer {
+    margin-top: 38px;
+    border-top: 1px solid var(--color-boder-default);
+}
+
+.form-footer-action {
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 24px;
+}

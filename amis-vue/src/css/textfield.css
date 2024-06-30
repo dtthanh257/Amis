@@ -1,0 +1,200 @@
+.textfield {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 24px;
+    position: relative;
+}
+
+.textfield label {
+    font-weight: 600;
+    padding-bottom: 8px;
+    line-height: 100%;
+    font-size: 13px;
+}
+
+input {
+    width: 100%;
+    min-width: 260px;
+    padding: 9px 12px;
+    background-color: #ffffff;
+    border: 1px solid var(--color-textfiled);
+    border-radius: 4px;
+    padding: 8px 12px;
+    height: 36px;
+}
+
+input::placeholder {
+    color: var(--color-input-placeholder);
+}
+
+input:hover {
+    background-color: var(--color-input-hover) !important;
+}
+
+input:focus {
+    border: 1.5px solid var(--color-primary) !important;
+    outline: none;
+}
+
+
+/* Textfield - Error */
+
+.textfield-error input {
+    border: 1.5px solid var(--color-textfield-error);
+}
+
+.textfield-error-discr {
+    color: var(--color-textfield-error);
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.textfield-name-error::after {
+    content: "Tên không được bỏ trống.";
+    background-color: black;
+    font-size: 13px;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    padding: 4px 6px;
+    left: 15%;
+    display: none;
+}
+
+.textfield-error:hover.textfield-name-error::after {
+    display: block;
+}
+
+.textfield-department-error::after {
+    content: "Đơn vị không được bỏ trống.";
+    background-color: black;
+    font-size: 13px;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    padding: 4px 6px;
+    left: 28%;
+    display: none;
+}
+
+.textfield-error:hover.textfield-department-error::after {
+    display: block;
+}
+
+.textfield-code-error::after {
+    content: "Mã không được bỏ trống.";
+    white-space: nowrap;
+    background-color: black;
+    font-size: 13px;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    padding: 4px 6px;
+    display: none;
+}
+
+.textfield-have-code-warning::after {
+    content: "Mã nhân viên đã tồn tại.";
+    white-space: nowrap;
+    background-color: black;
+    font-size: 13px;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    padding: 4px 6px;
+    display: none;
+}
+
+.textfield-error:hover.textfield-code-error::after {
+    display: block;
+}
+
+.textfield-error:hover.textfield-have-code-warning::after {
+    display: block;
+}
+
+
+/* Textfield - Validate */
+
+.textfield-validate {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.textfield-validate input {
+    border: 1.5px solid var(--color-primary);
+}
+
+.textfield-validate span {
+    height: 36px;
+    width: 44px;
+    border-radius: 4px;
+    font-size: 20px;
+    position: absolute;
+    top: calc(50% - 18px);
+    left: calc(100% - (32px + 12px));
+    line-height: 36px;
+    text-align: center;
+    color: var(--color-primary);
+}
+
+
+/* Textfield with icon */
+
+.textfield-with-acion {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.textfield-with-acion span {
+    height: 36px;
+    width: 44px;
+    border-radius: 4px;
+    font-size: 20px;
+    position: absolute;
+    top: calc(50% - 18px);
+    left: calc(100% - (32px + 12px));
+    line-height: 36px;
+    text-align: center;
+    color: #666666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.textfield-with-acion span i {
+    font-size: 20px;
+}
+
+.textfield-with-acion span:active {
+    background-color: var(--color-textfiled);
+}
+
+
+/* textfield__ */
+
+.textfield-flex {
+    height: 100%;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.textfield-flex input[type="radio"] {
+    height: 20px;
+    width: 20px;
+    margin-right: 8px;
+}
+
+.textfield-flex input[type="radio"]:focus {
+    outline: 1px var(--color-primary) solid;
+}
+
+.gender {
+    display: flex;
+    align-items: center;
+    padding-right: 24px;
+}

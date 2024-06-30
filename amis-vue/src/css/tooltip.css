@@ -1,0 +1,94 @@
+.tooltip-place-id {
+  position: relative;
+}
+
+.tooltip-id {
+  height: 60px;
+  width: 160px;
+  background-color: rgba(0, 0, 0, 56%);
+  color: white;
+  border-radius: 4px;
+  display: none;
+  align-items: center;
+  padding: 4px;
+  position: absolute;
+  top: -60%;
+  right: 15%;
+  text-align: center;
+}
+
+.tooltip-id::after {
+  content: "";
+  border-style: solid;
+  border-width: 10px 10px;
+  border-color: rgba(0, 0, 0, 56%) transparent transparent transparent;
+  position: absolute;
+  top: 100%;
+  right: 50%;
+}
+
+.tooltip-place-phone {
+  position: relative;
+}
+
+.tooltip-phone {
+  height: 60px;
+  width: 160px;
+  background-color: rgba(0, 0, 0, 56%);
+  color: white;
+  border-radius: 4px;
+  display: none;
+  align-items: center;
+  padding: 4px;
+  position: absolute;
+  top: -60%;
+  right: 15%;
+  text-align: center;
+}
+
+.tooltip-phone::after {
+  content: "";
+  border-style: solid;
+  border-width: 10px 10px;
+  border-color: rgba(0, 0, 0, 56%) transparent transparent transparent;
+  position: absolute;
+  top: 100%;
+  right: 45%;
+}
+
+.tooltip-phone-main {
+  height: 60px;
+  width: 160px;
+  background-color: rgba(0, 0, 0, 56%);
+  color: white;
+  border-radius: 4px;
+  display: none;
+  align-items: center;
+  padding: 4px;
+  position: absolute;
+  top: -60%;
+  right: 15%;
+  text-align: center;
+}
+
+.tooltip-phone-main::after {
+  content: "";
+  border-style: solid;
+  border-width: 10px 10px;
+  border-color: rgba(0, 0, 0, 56%) transparent transparent transparent;
+  position: absolute;
+  top: 100%;
+  right: 50%;
+}
+
+.tooltip-place-id input:hover ~ .tooltip-id {
+  display: flex;
+}
+
+.tooltip-place-phone input:hover ~ .tooltip-phone {
+  display: flex;
+}
+
+.tooltip-place-phone-main input:hover ~ .tooltip-phone-main {
+  display: flex;
+}

@@ -1,0 +1,144 @@
+.icon {
+  height: 24px;
+  width: 24px;
+  background: url(../assets/img/Sprites.64af8f61.svg) no-repeat;
+  margin-left: 24px;
+  cursor: pointer;
+}
+
+.icon-cash {
+  background: url(../assets/img/Sprites.64af8f61.svg);
+  background-position: -73px -1628px;
+}
+
+.icon-homepage {
+  background-position: -30px -1628px;
+}
+
+.icon-money {
+  background-position: -117px -1628px;
+}
+
+.icon-buy {
+  background-position: -161px -1628px;
+}
+
+.icon-sell {
+  background-position: -204px -1628px;
+}
+
+.icon-bill {
+  background-position: -249px -1628px;
+}
+
+.icon-warehouse {
+  background-position: -291px -1628px;
+}
+
+.icon-tool {
+  background-position: -336px -1628px;
+}
+
+.icon-asset {
+  background-position: -378px -1628px;
+}
+
+.icon-salary {
+  background-position: -423px -1628px;
+}
+
+.icon-tax {
+  background-position: -467px -1628px;
+}
+
+.icon-price {
+  background-position: -510px -1628px;
+}
+
+.icon-back {
+  height: 16px;
+  width: 16px;
+  background-position: -32px -360px;
+}
+
+.icon-right-toggle {
+  background: url(../assets/img/Sprites.64af8f61.svg) no-repeat;
+  background-position: -843px -30px;
+}
+
+.icon-ava-dropdown {
+  height: 4px;
+  width: 8px;
+  background: url(../assets/img/Sprites.64af8f61.svg) no-repeat;
+  background-position: -1078.71px -38.71px;
+  cursor: pointer;
+  margin: 0;
+}
+
+.icon-reload {
+  width: 24px;
+  height: 24px;
+  background: url(../assets/img/Sprites.64af8f61.svg) no-repeat;
+  background-position: -1096px -88px;
+  margin-right: 22px;
+  cursor: pointer;
+  margin: 0;
+}
+
+.icon-close {
+  background-position: -144px -144px;
+}
+
+.icon-dialog-warning {
+  height: 48px;
+  width: 48px;
+  margin-right: 16px;
+  background-position: -592px -456px;
+}
+
+.icon-dialog-error {
+  height: 48px;
+  width: 48px;
+  background-position: -746px -456px;
+}
+
+.icon-dialog-question {
+  height: 48px;
+  width: 48px;
+  background-position: -826px -456px;
+}
+
+.icon-dialog-success {
+  height: 48px;
+  width: 48px;
+  background-position: -984px -456px;
+}
+
+.icon-pre {
+  background-position: -32px -360px;
+  height: 16px !important;
+  width: 16px !important;
+}
+
+.icon-next {
+  background-position: -80px -360px;
+  height: 16px !important;
+  width: 16px !important;
+}
+
+.icon-toast-success {
+  background-position: -1600px -256px;
+  margin-left: 16px;
+}
+
+.icon-toast-close {
+  background-position: -80px -312px;
+  height: 16px;
+  width: 16px;
+  margin-right: 16px;
+}
+
+.icon-toast-error {
+  background-position: -760px -144px;
+  margin-left: 16px;
+}

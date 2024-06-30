@@ -1,0 +1,110 @@
+.default {
+  padding: 0;
+  margin: 0;
+}
+
+/* width path  */
+
+.w2-5 {
+  width: 40% !important;
+}
+
+.w3-5 {
+  width: 60% !important;
+}
+
+.w1-2 {
+  width: 50% !important;
+}
+
+.w1-1 {
+  width: 100% !important;
+}
+
+.w4-5 {
+  width: 80% !important;
+}
+
+.require {
+  color: red !important;
+}
+
+.d-flex-row {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.d-flex-row-center {
+  align-items: center !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+}
+
+.d-flex-row-sbw {
+  align-items: center !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+}
+
+.d-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.align-item-center {
+  align-items: center;
+}
+
+/* text-align */
+
+.text-align-center {
+  text-align: center !important;
+}
+
+.text-align-left {
+  text-align: left !important;
+}
+
+.text-align-right {
+  text-align: right !important;
+}
+
+/* gap */
+
+.gap-8 {
+  gap: 8px !important;
+}
+
+.gap-12 {
+  gap: 12px;
+}
+
+.gap-16 {
+  gap: 16px;
+}
+
+.gap-28 {
+  gap: 28px;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.h-56 {
+  height: 56px !important;
+}
+
+.mw-200 {
+  min-width: 200px !important;
+}

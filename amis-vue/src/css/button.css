@@ -1,0 +1,171 @@
+.btn {
+    min-width: 80px;
+    height: 36px;
+    font-weight: 500;
+    font-size: 13px;
+    text-align: center;
+    padding: 9px 16px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+}
+
+
+/* Nut chinh */
+
+.btn-pri {
+    background-color: var(--color-primary);
+    color: #fff;
+}
+
+.btn-pri:focus {
+    outline: var(--color-primary) 1px solid;
+    border: 2px solid #fff;
+}
+
+.btn-pri:hover {
+    background-color: var(--color-hover);
+    cursor: pointer;
+}
+
+.btn-pri:active {
+    background-color: var(--color-active);
+}
+
+
+/* Nut phu */
+
+.btn-sec {
+    background-color: #fff;
+    color: #1f1f1f;
+    border: 1px solid #e6e6e6;
+}
+
+.btn-sec:focus {
+    outline: black 1px solid;
+    border: 1px solid #fff;
+}
+
+.btn-sec:hover {
+    background-color: #f6f6f6;
+}
+
+.btn-sec:active {
+    background-color: #ebebeb;
+}
+
+
+/* Link button */
+
+.btn-link {
+    color: var(--color-primary);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-link:active {
+    color: var(--color-active);
+}
+
+
+/* Button icon */
+
+.btn-icon {
+    height: 36px;
+    font-size: 20px;
+    min-width: none;
+    padding: 8px 8px;
+    min-width: 40px;
+    background-color: rgba(80, 184, 60, 0.1);
+    align-items: center;
+    line-height: 100%;
+    color: var(--color-primary);
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 20px;
+}
+
+.btn-icon:active {
+    color: #ffffff;
+    background-color: var(--color-active);
+}
+
+
+/* Combo button */
+
+.btn-combo {
+    display: flex;
+    min-width: 80px;
+    max-width: 120px;
+    align-items: center;
+    padding: 0;
+}
+
+.btn-combo-text {
+    padding: 8px 12px;
+}
+
+.btn-combo-separate {
+    width: 1px;
+    height: 36px;
+    background-color: white;
+}
+
+
+/* button with icon */
+
+.icon-combo {
+    padding: 8px 12px;
+    border-left: 1px solod #fff;
+}
+
+.btn-with-icon {
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: var(--color-primary);
+    padding-left: 9px;
+    padding-right: 20px;
+}
+
+.btn-with-icon .icon {
+    display: flex;
+    color: white;
+    padding-right: 4px;
+}
+
+.btn-flex-1 {
+    flex: 1;
+}
+
+
+/* btn fix */
+
+.btn-fix {
+    color: var(--color-fix-button);
+    min-width: unset;
+    padding: 0;
+    font-weight: 600;
+}
+
+.btn-drop-down-fix {
+    background: url(../assets/img/Sprites.64af8f61.svg) no-repeat;
+    height: 16px;
+    width: 16px;
+    background-position: -896px -360px;
+    min-width: none;
+    position: relative;
+    border: unset;
+    cursor: pointer;
+}
+
+.btn-footer-active {
+    border: 1px solid gray !important;
+}
