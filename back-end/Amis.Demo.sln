@@ -1,17 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 25.0.1706.3
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34902.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MISA.WebFresher062023.Demo", "MISA.WebFresher062023.Demo\MISA.WebFresher062023.Demo.csproj", "{3EEB037C-CA60-4AEE-962F-B98D9DD6D5CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amis.Demo", "MISA.WebFresher062023.Demo\Amis.Demo.csproj", "{3EEB037C-CA60-4AEE-962F-B98D9DD6D5CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MISA.WebFresher062023.Demo.UnitTests", "MISA.WebFresher062023.Demo.UnitTests\MISA.WebFresher062023.Demo.UnitTests.csproj", "{87F114DC-3E2E-4DE6-BEAB-888737750BD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amis.Demo.UnitTest", "MISA.WebFresher062023.Demo.UnitTests\Amis.Demo.UnitTest.csproj", "{87F114DC-3E2E-4DE6-BEAB-888737750BD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MISA.WebFresher062023.Demo.Domain", "MISA.WebFresher062023.Demo.Domain\MISA.WebFresher062023.Demo.Domain.csproj", "{37CA15D4-6CD4-459D-97BA-7857A8606ECD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amis.Demo.Domain", "MISA.WebFresher062023.Demo.Domain\Amis.Demo.Domain.csproj", "{37CA15D4-6CD4-459D-97BA-7857A8606ECD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MISA.WebFresher062023.Demo.Application", "MISA.WebFresher062023.Demo.Application\MISA.WebFresher062023.Demo.Application.csproj", "{56B0E0AA-DF23-4525-9930-BF3F3B8CA04B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amis.Demo.Application", "MISA.WebFresher062023.Demo.Application\Amis.Demo.Application.csproj", "{56B0E0AA-DF23-4525-9930-BF3F3B8CA04B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MISA.WebFresher062023.Demo.Infrastructure", "MISA.WebFresher062023.Demo.Infrastructure\MISA.WebFresher062023.Demo.Infrastructure.csproj", "{EA14E3A6-34E1-45B7-90E9-88B5E2ED24D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amis.Demo.Infrastructure", "MISA.WebFresher062023.Demo.Infrastructure\Amis.Demo.Infrastructure.csproj", "{EA14E3A6-34E1-45B7-90E9-88B5E2ED24D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

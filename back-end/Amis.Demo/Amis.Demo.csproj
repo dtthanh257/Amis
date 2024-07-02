@@ -22,13 +22,13 @@
     <Folder Include="Middleware\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MISA.WebFresher062023.Demo.Application\MISA.WebFresher062023.Demo.Application.csproj">
+    <ProjectReference Include="..\MISA.WebFresher062023.Demo.Application\Amis.Demo.Application.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
-    <ProjectReference Include="..\MISA.WebFresher062023.Demo.Domain\MISA.WebFresher062023.Demo.Domain.csproj">
+    <ProjectReference Include="..\MISA.WebFresher062023.Demo.Domain\Amis.Demo.Domain.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
-    <ProjectReference Include="..\MISA.WebFresher062023.Demo.Infrastructure\MISA.WebFresher062023.Demo.Infrastructure.csproj">
+    <ProjectReference Include="..\MISA.WebFresher062023.Demo.Infrastructure\Amis.Demo.Infrastructure.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
   </ItemGroup>

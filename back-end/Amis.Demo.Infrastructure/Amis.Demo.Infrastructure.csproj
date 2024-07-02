@@ -10,8 +10,8 @@
     <None Remove="Repository\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MISA.WebFresher062023.Demo.Application\MISA.WebFresher062023.Demo.Application.csproj" />
-    <ProjectReference Include="..\MISA.WebFresher062023.Demo.Domain\MISA.WebFresher062023.Demo.Domain.csproj" />
+    <ProjectReference Include="..\MISA.WebFresher062023.Demo.Application\Amis.Demo.Application.csproj" />
+    <ProjectReference Include="..\MISA.WebFresher062023.Demo.Domain\Amis.Demo.Domain.csproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="MySqlConnector" Version="2.2.7" />

@@ -12,6 +12,6 @@
     <None Remove="Dto\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MISA.WebFresher062023.Demo.Domain\MISA.WebFresher062023.Demo.Domain.csproj" />
+    <ProjectReference Include="..\MISA.WebFresher062023.Demo.Domain\Amis.Demo.Domain.csproj" />
   </ItemGroup>
 </Project>
